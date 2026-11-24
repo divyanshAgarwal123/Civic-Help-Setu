@@ -1,0 +1,14 @@
+{
+  "sourceHead": "57ba08650cbfad3f9ddb5c34199646ebacaf0eb1",
+  "base": "c29331b867e37c0ab71847c1f190bfcc635e45e6",
+  "sourceTree": "d7e615970a53a45637831370d4b947bf941fed99",
+  "sourceTreeVerifiedOnGitHub": true,
+  "readyForReview": false,
+  "artifacts": {
+    "validation.json": "70a6da7e4e392f350cd7ec68c6d052678430a3b1a1f5c20686226cb6b1a462db",
+    "baseline-comparison.json": "5c230232e75a72db8948e16125645bca26f933277cb916f28a23629ced441522",
+    "native-github-report.json": "a3f7c8222aa971d92d1d996cfd5600f1acb53e3aef20ef612c1a9df8b74d061a",
+    "workflow-validation.json": "b52bd80529e5ef9b8c29f1538c28543adf214fadac4c90b8c2ba1f3a8a1eb473",
+    "secret-scan-comparison.json": "b1b8af1270ccf35bc31f33acb2f7cec30bb039c013fdb20de74a5394fe421805"
+  }
+}

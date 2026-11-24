@@ -1,0 +1,456 @@
+{
+  "headPassed": 7980,
+  "headFailed": 111,
+  "parentPassed": 7906,
+  "parentFailed": 111,
+  "identicalFailureIDs": true,
+  "newFailureIDs": [],
+  "existingFailureIDs": [
+    [
+      "scripts/firebaseRules.test.js",
+      "the access policy document names every top-level collection in the rules"
+    ],
+    [
+      "scripts/firebaseRules.test.js",
+      "the emulator tests cover every top-level collection"
+    ],
+    [
+      "scripts/firebaseRules.test.js",
+      "wiring keeps the Firebase client SDK and firebase-tools out of the browser bundle"
+    ],
+    [
+      "scripts/securityHeaders.test.js",
+      "the app still fits the policy the only HTML built from strings is the print windows, which carry no scripts"
+    ],
+    [
+      "src/components/LanguageSwitcher.test.jsx",
+      "mobile navbar fit hides the label and tightens the navbar under 480px only"
+    ],
+    [
+      "src/components/chat/ChatEmptyState.test.jsx",
+      "ChatEmptyState Component (#584) renders guidance title, scope notice, and categorized prompt groups"
+    ],
+    [
+      "src/components/chat/ChatSessionControls.test.jsx",
+      "ChatEmptyState shows every starter question as a button"
+    ],
+    [
+      "src/components/community/LiveContributorsSection.test.jsx",
+      "LiveContributorsSection Component (#562) renders contributor cards when data is provided via fetcher"
+    ],
+    [
+      "src/components/community/LiveContributorsSection.test.jsx",
+      "LiveContributorsSection Component (#562) renders section title and GitHub link markers"
+    ],
+    [
+      "src/components/tracking/DeficiencyCureModal.test.jsx",
+      "DeficiencyCureModal renders objection modal with statutory timeline and compliance petition preview"
+    ],
+    [
+      "src/pages/FeeEvidenceAssistant.test.jsx",
+      "FeeEvidenceAssistant page (#1003) renders community observations with pre-moderation messaging"
+    ],
+    [
+      "src/pages/FeeEvidenceAssistant.test.jsx",
+      "FeeEvidenceAssistant page (#1003) renders receipt entry, OCR correction, and redaction controls"
+    ],
+    [
+      "src/pages/FeeEvidenceAssistant.test.jsx",
+      "FeeEvidenceAssistant page (#1003) renders service and jurisdiction selectors with verified services"
+    ],
+    [
+      "src/pages/FeeEvidenceAssistant.test.jsx",
+      "FeeEvidenceAssistant page (#1003) renders the assistant heading and evidence-based framing"
+    ],
+    [
+      "src/pages/FeeEvidenceAssistant.test.jsx",
+      "FeeEvidenceAssistant page (#1003) renders the non-collection and no-payments safeguard"
+    ],
+    [
+      "src/pages/FeeEvidenceAssistant.test.jsx",
+      "FeeEvidenceAssistant page (#1003) renders the official grievance route"
+    ],
+    [
+      "src/pages/FeeEvidenceAssistant.test.jsx",
+      "FeeEvidenceAssistant page (#1003) renders versioned fee history from the published schedule"
+    ],
+    [
+      "src/pages/OpenSource.test.jsx",
+      "OpenSource Contributors Hub Page (#561) renders distinct contribution pathways with accessible roles"
+    ],
+    [
+      "src/pages/OpenSource.test.jsx",
+      "OpenSource Contributors Hub Page (#561) renders hero with correct Civic Help Setu branding and title"
+    ],
+    [
+      "src/pages/OpenSource.test.jsx",
+      "OpenSource Contributors Hub Page (#561) renders quick local development instructions"
+    ],
+    [
+      "src/pages/PublicToiletDirectory.test.jsx",
+      "PublicToiletDirectory Workspace & UI Components (#758) renders ToiletCard with non-color status badges, accessibility tags, and factual timestamps"
+    ],
+    [
+      "src/pages/Vault.test.jsx",
+      "Vault Page UI & Upload Constraints (#588) renders empty vault state with educational copy and add action"
+    ],
+    [
+      "src/pages/Vault.test.jsx",
+      "Vault Page UI & Upload Constraints (#588) renders local privacy banner and file constraints"
+    ],
+    [
+      "src/pages/Vault.test.jsx",
+      "Vault Page UI & Upload Constraints (#588) renders passphrase unlock form when at-rest encrypted vault is locked"
+    ],
+    [
+      "src/services/accessControl.test.js",
+      "the permission table grants nothing to citizens"
+    ],
+    [
+      "src/services/accessControl.test.js",
+      "the permission table has a test call for every action, so a new action cannot be added untested"
+    ],
+    [
+      "src/services/accessControl.test.js",
+      "the permission table is actually enforced by the data layer: every action is required somewhere in src/services"
+    ],
+    [
+      "src/services/civicCounterJourneyService.test.js",
+      "buildAICounterExplanation detects queue claim in suggestion text"
+    ],
+    [
+      "src/services/civicCounterJourneyService.test.js",
+      "buildAICounterExplanation produces a SUGGESTION label with source refs when guidance and sources exist"
+    ],
+    [
+      "src/services/civicCounterJourneyService.test.js",
+      "evaluateCounterJourney detects queue claims in AI text"
+    ],
+    [
+      "src/services/civicCounterJourneyService.test.js",
+      "evaluateCounterJourney includes AI suggestions with source refs"
+    ],
+    [
+      "src/services/civicCounterJourneyService.test.js",
+      "evaluateCounterJourney includes dataQuality stale check"
+    ],
+    [
+      "src/services/civicCounterJourneyService.test.js",
+      "orderCountersDeterministically orders counters when dependencies are valid"
+    ],
+    [
+      "src/services/clearMyDataService.test.js",
+      "registry covers the keys the app writes has no unlisted storage key in src"
+    ],
+    [
+      "src/services/clearMyDataService.test.js",
+      "registry covers the keys the app writes is described in docs/DATA_RETENTION.md"
+    ],
+    [
+      "src/services/cloudRecordSyncVerificationService.test.js",
+      "cloudRecordSyncVerificationService (#428) confirms that 100% of privacy registry stores are classified without gaps or duplicates"
+    ],
+    [
+      "src/services/cloudRecords.test.js",
+      "the store tables classify every key of the privacy registry exactly once"
+    ],
+    [
+      "src/services/jurisdictionService.test.js",
+      "jurisdiction applicability (#260) built-in catalogue only marks centrally run services as national and leaves the rest unverified"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Discrepancy reports accepts a small rounding tolerance"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Discrepancy reports detects an overcharge relative to the published fee"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Discrepancy reports detects an undercharge without treating it as a full match"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Discrepancy reports does not apply a state version in a report without a selected state"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Discrepancy reports does not apply a state version when checking another state"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Discrepancy reports handles mixed matched and unknown components"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Discrepancy reports keeps a mixed undercharge and unknown component at partial-match"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Discrepancy reports matches a component against the published passport schedule"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Discrepancy reports reports partial-overcharge when only some verified charges are above the schedule"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Fee history and jurisdiction variants does not apply a state version to a different state"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Fee history and jurisdiction variants does not apply a state version when no State/UT was selected"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Fee history and jurisdiction variants only applies a district version when the district matches"
+    ],
+    [
+      "src/services/nationalPublicServiceCentreService.test.js",
+      "Fee history and jurisdiction variants prefers a state version over the national baseline"
+    ],
+    [
+      "src/services/nextStepGuideService.test.js",
+      "generateNextStepGuide Complete service record includes documents step"
+    ],
+    [
+      "src/services/nextStepGuideService.test.js",
+      "generateNextStepGuide Complete service record includes eligibility step"
+    ],
+    [
+      "src/services/nextStepGuideService.test.js",
+      "generateNextStepGuide Complete service record includes fees step"
+    ],
+    [
+      "src/services/nextStepGuideService.test.js",
+      "generateNextStepGuide Complete service record includes official source step with verified URL"
+    ],
+    [
+      "src/services/nextStepGuideService.test.js",
+      "generateNextStepGuide Complete service record includes processing time step"
+    ],
+    [
+      "src/services/nextStepGuideService.test.js",
+      "generateNextStepGuide Complete service record includes service steps in order"
+    ],
+    [
+      "src/services/nextStepGuideService.test.js",
+      "generateNextStepGuide Complete service record includes warnings step"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Data Validation validateCapacitySnapshotData rejects capacityAvailable > capacityTotal"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Data Validation validateCapacitySnapshotData rejects missing shelterSiteId"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Data Validation validateCapacitySnapshotData rejects negative capacityAvailable"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Data Validation validateCapacitySnapshotData validates capacityTotal range"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Data Validation validateCapacitySnapshotData validates updateSource requirement"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Data Validation validateFacilityServiceData rejects capacityAvailable > capacityTotal"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Data Validation validateFacilityServiceData validates a minimal valid facility service"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Data Validation validateFacilityServiceData validates capacity ranges"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Data Validation validateStatusEventData validates operatorId requirement"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Data Validation validateStatusEventData validates timestamp requirement"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Data Validation validateVerificationCheckData rejects empty notes"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Data Validation validateVerificationCheckData rejects missing checkedBy"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Domain Logic formatLastUpdated returns \"yesterday\" for 1.5 days"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Domain Logic formatLastUpdated returns hours ago for older"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Domain Logic isValidTransition allows CLOSED -> OPEN"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Domain Logic isValidTransition allows OPEN -> CLOSED"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Domain Logic isValidTransition allows OPEN -> TEMPORARILY_CLOSED"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Domain Logic isValidTransition allows TEMPORARILY_CLOSED -> CLOSED"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Domain Logic isValidTransition allows TEMPORARILY_CLOSED -> OPEN"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Domain Logic isValidTransition rejects MAINTENANCE -> invalid"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Domain Logic isValidTransition rejects OPEN -> CLOSED directly (not in allowed list)"
+    ],
+    [
+      "src/services/shelterStatusService.test.js",
+      "shelterStatusService - Domain Logic isValidTransition rejects invalid transition"
+    ],
+    [
+      "src/services/syntheticDatasetService.test.js",
+      "syntheticDatasetService (#778) Authorization & Access Control permits citizens to generate synthetic datasets in testing mode"
+    ],
+    [
+      "src/services/syntheticDatasetService.test.js",
+      "syntheticDatasetService (#778) Job Execution & Certification executes a generation job, audits PII, and stores certified artifact"
+    ],
+    [
+      "src/services/syntheticDatasetService.test.js",
+      "syntheticDatasetService (#778) Job Execution & Certification handles idempotent replay without re-generating"
+    ],
+    [
+      "src/services/syntheticDatasetService.test.js",
+      "syntheticDatasetService (#778) Local Test Environment Injection loads synthetic services into civicbridge_custom_services store"
+    ],
+    [
+      "src/services/syntheticDatasetService.test.js",
+      "syntheticDatasetService (#778) Profile Management creates and persists a sanitized custom profile"
+    ],
+    [
+      "src/services/syntheticDatasetService.test.js",
+      "syntheticDatasetService (#778) Profile Updates & Audit Logging updates a custom profile and writes an audit event"
+    ],
+    [
+      "src/services/syntheticDatasetService.test.js",
+      "syntheticDatasetService (#778) Retention & Artifact Deletion deletes an artifact and removes its data store"
+    ],
+    [
+      "src/services/syntheticDatasetService.test.js",
+      "syntheticDatasetService (#778) Schema Migrations & Rollback Strategy migrates profile and artifact schemas to target version and rolls back on demand"
+    ],
+    [
+      "src/services/waterBillTariff.test.js",
+      "Water Bill Tariff Service calculateVariableCharge calculates variable charge for consumption across slabs"
+    ],
+    [
+      "src/services/waterBillTariff.test.js",
+      "Water Bill Tariff Service calculateVariableCharge calculates variable charge for consumption in slab3"
+    ],
+    [
+      "src/services/waterBillTariff.test.js",
+      "Water Bill Tariff Service calculateVariableCharge calculates variable charge for consumption within slab1"
+    ],
+    [
+      "src/services/waterBillTariff.test.js",
+      "Water Bill Tariff Service calculateVariableCharge calculates variable charge for slab2 boundary"
+    ],
+    [
+      "src/utils/diagnostics.test.js",
+      "routeOf lists the routes the app defines"
+    ],
+    [
+      "src/utils/diagnostics.test.js",
+      "the app does not log raw errors or send diagnostics anywhere uses logDiagnostic instead of console.error/console.warn with an error object"
+    ],
+    [
+      "src/utils/routeDiagnosticsMonitor.test.js",
+      "routeDiagnosticsMonitor (#427) matches actual App.jsx routes against ROUTE_PATTERNS including /acronyms"
+    ],
+    [
+      "src/utils/safeContent.test.jsx",
+      "inventory: raw HTML sinks in the source every link built from a source or notice URL goes through safeHttpUrl"
+    ],
+    [
+      "src/utils/safeContent.test.jsx",
+      "inventory: raw HTML sinks in the source no element has its markup set directly, and nothing is inserted as HTML"
+    ],
+    [
+      "tests/api-dispatcher-loads.test.js",
+      "api/[...path].js import graph only has relative imports that Node can resolve as written (every one names its file and extension)"
+    ],
+    [
+      "tests/api-dispatcher-loads.test.js",
+      "api/[...path].js under plain Node loads, answers an unknown route with the dispatcher JSON 404, and routes nested paths to their handler"
+    ],
+    [
+      "tests/counter-journey-api.test.js",
+      "api/counter-journey handler GET /catalogue filters by serviceId"
+    ],
+    [
+      "tests/counter-journey-api.test.js",
+      "api/counter-journey handler GET /catalogue respects page and pageSize"
+    ],
+    [
+      "tests/counter-journey-api.test.js",
+      "api/counter-journey handler GET /catalogue returns paginated catalogue with no serviceId filter"
+    ],
+    [
+      "tests/counter-journey-api.test.js",
+      "api/counter-journey handler GET /journey returns a journey by id"
+    ],
+    [
+      "tests/counter-journey-api.test.js",
+      "api/counter-journey handler POST /admin:review returns 400 when journeyId is missing"
+    ],
+    [
+      "tests/counter-journey-api.test.js",
+      "api/counter-journey handler POST /admin:review returns success for admin"
+    ],
+    [
+      "tests/counter-journey-api.test.js",
+      "api/counter-journey handler POST /checklist returns checklist text with auth"
+    ],
+    [
+      "tests/counter-journey-api.test.js",
+      "api/counter-journey handler POST /evaluate evaluates a journey with all docs and returns full data with auth"
+    ],
+    [
+      "tests/counter-journey-api.test.js",
+      "api/counter-journey handler POST /evaluate returns empty result when no docs provided with auth"
+    ],
+    [
+      "tests/counter-journey-api.test.js",
+      "api/counter-journey handler POST /evaluate returns validation errors for bad request with auth"
+    ],
+    [
+      "tests/counter-journey-api.test.js",
+      "api/counter-journey handler malformed / empty results handles empty catalogue when no services match"
+    ],
+    [
+      "tests/flood-incident-reports.test.js",
+      "api/flood-incident-reports (#985) validates a compliant citizen flood report payload"
+    ]
+  ],
+  "lintTotalsSame": true,
+  "lintDiagnosticsEqual": true
+}

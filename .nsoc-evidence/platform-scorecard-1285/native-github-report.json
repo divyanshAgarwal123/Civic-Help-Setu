@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "commit": "c29331b867e37c0ab71847c1f190bfcc635e45e6",
+  "policyDigest": "b46e78655eda3a1c04fd1124ab814ae05a53c8126f56a2908d61e9301ef63355",
+  "collectedAt": "2026-11-24T22:18:02.255Z",
+  "dimensions": {
+    "throughput": {
+      "status": "unavailable",
+      "reason": "No trusted application load-test producer configured.",
+      "action": "Add an approved synthetic application load-test collector; do not infer throughput from CI duration.",
+      "passed": false
+    },
+    "latency": {
+      "status": "unavailable",
+      "reason": "No verified preview measurements.",
+      "action": "Restore the pinned Lighthouse producer and its complete route reports.",
+      "passed": false
+    },
+    "availability": {
+      "status": "unavailable",
+      "reason": "No deployed availability collector.",
+      "action": "Configure an authenticated uptime collector and an explicit observation window.",
+      "passed": false
+    },
+    "privacy": {
+      "status": "unavailable",
+      "reason": "CI quality checks do not establish a production privacy assessment.",
+      "action": "Add an independently reviewed privacy evidence producer; preserve the existing diagnostics allowlist.",
+      "passed": false
+    },
+    "accessibility": {
+      "status": "unavailable",
+      "reason": "No verified accessibility measurements.",
+      "action": "Restore the pinned Lighthouse producer and its complete route reports.",
+      "passed": false
+    },
+    "cost": {
+      "status": "unavailable",
+      "reason": "No deployed usage/billing collector.",
+      "action": "Configure a trusted cost source; do not interpret missing billing as zero cost.",
+      "passed": false
+    },
+    "operationalReadiness": {
+      "status": "unavailable",
+      "reason": "No verified quality artifact.",
+      "action": "Run the pinned main-branch quality workflow, including contract, lint, test and build checks.",
+      "passed": false
+    }
+  },
+  "alerts": [],
+  "score": {
+    "passedDimensions": 0,
+    "totalDimensions": 7,
+    "percent": 0,
+    "scope": "Evidence coverage score, not a production health score; unavailable/invalid dimensions earn no points."
+  },
+  "sources": [
+    {
+      "source": "github-actions",
+      "repository": "GoldRay19/Civic-Help-Setu",
+      "commit": "c29331b867e37c0ab71847c1f190bfcc635e45e6",
+      "producer": "quality",
+      "workflowId": 421213009,
+      "workflowPath": ".github/workflows/pr-quality.yml",
+      "collectedAt": "2026-11-24T22:18:02.255Z",
+      "verifiedConfigurationBlobs": {},
+      "status": "unavailable",
+      "reason": "no_run_for_commit"
+    },
+    {
+      "source": "github-actions",
+      "repository": "GoldRay19/Civic-Help-Setu",
+      "commit": "c29331b867e37c0ab71847c1f190bfcc635e45e6",
+      "producer": "lighthouse",
+      "workflowId": 421565031,
+      "workflowPath": ".github/workflows/lighthouse-ci.yml",
+      "collectedAt": "2026-11-24T22:18:03.907Z",
+      "verifiedConfigurationBlobs": {},
+      "status": "unavailable",
+      "reason": "no_run_for_commit"
+    }
+  ]
+}

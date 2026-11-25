@@ -201,23 +201,23 @@ ok 32 - attachment quarantine fails closed, resumes after upload outage, and bin
   duration_ms: 108.618125
   type: 'test'
   ...
-# [2026-11-25T17:45:27.090Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324ca error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# [2026-11-25T17:45:27.090Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324ca error. Code: 7 Message: 7 PERMISSION_DENIED:
 # false for 'create' @ L270, false for 'create' @ L599, false for 'update' @ L270, false for 'update' @ L599
-# [2026-11-25T17:45:27.104Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324cc error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# [2026-11-25T17:45:27.104Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324cc error. Code: 7 Message: 7 PERMISSION_DENIED:
 # false for 'create' @ L270, false for 'create' @ L599, false for 'update' @ L270, false for 'update' @ L599
-# [2026-11-25T17:45:27.111Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324cd error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# [2026-11-25T17:45:27.111Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324cd error. Code: 7 Message: 7 PERMISSION_DENIED:
 # false for 'create' @ L273, false for 'create' @ L599, false for 'update' @ L273, false for 'update' @ L599
-# [2026-11-25T17:45:27.223Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324ce error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# [2026-11-25T17:45:27.223Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324ce error. Code: 7 Message: 7 PERMISSION_DENIED:
 # false for 'create' @ L270, false for 'create' @ L599, false for 'update' @ L270, false for 'update' @ L599
-# [2026-11-25T17:45:27.233Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d0 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# [2026-11-25T17:45:27.233Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d0 error. Code: 7 Message: 7 PERMISSION_DENIED:
 # false for 'create' @ L270, false for 'create' @ L599, false for 'update' @ L270, false for 'update' @ L599
-# [2026-11-25T17:45:27.240Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d1 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# [2026-11-25T17:45:27.240Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d1 error. Code: 7 Message: 7 PERMISSION_DENIED:
 # false for 'create' @ L273, false for 'create' @ L599, false for 'update' @ L273, false for 'update' @ L599
-# [2026-11-25T17:45:27.279Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d2 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# [2026-11-25T17:45:27.279Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d2 error. Code: 7 Message: 7 PERMISSION_DENIED:
 # false for 'create' @ L270, false for 'create' @ L599, false for 'update' @ L270, false for 'update' @ L599
-# [2026-11-25T17:45:27.290Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d4 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# [2026-11-25T17:45:27.290Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d4 error. Code: 7 Message: 7 PERMISSION_DENIED:
 # false for 'create' @ L270, false for 'create' @ L599, false for 'update' @ L270, false for 'update' @ L599
-# [2026-11-25T17:45:27.297Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d5 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# [2026-11-25T17:45:27.297Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d5 error. Code: 7 Message: 7 PERMISSION_DENIED:
 # false for 'create' @ L273, false for 'create' @ L599, false for 'update' @ L273, false for 'update' @ L599
 # Subtest: citizens, guests and UI admins cannot bypass the API, forge audit/aggregate rows or read quarantine objects
 ok 33 - citizens, guests and UI admins cannot bypass the API, forge audit/aggregate rows or read quarantine objects
@@ -514,11 +514,11 @@ ok 81 - every other path is closed to everyone
   duration_ms: 642.565875
   type: 'test'
   ...
-# [2026-11-25T17:45:37.033Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x74d07b02 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# [2026-11-25T17:45:37.033Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x74d07b02 error. Code: 7 Message: 7 PERMISSION_DENIED:
 # false for 'create' @ L594, false for 'create' @ L599, false for 'update' @ L594, false for 'update' @ L599
-# [2026-11-25T17:45:37.053Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x74d07b04 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# [2026-11-25T17:45:37.053Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x74d07b04 error. Code: 7 Message: 7 PERMISSION_DENIED:
 # false for 'create' @ L594, false for 'create' @ L599, false for 'update' @ L594, false for 'update' @ L599
-# [2026-11-25T17:45:37.072Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x74d07b06 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# [2026-11-25T17:45:37.072Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x74d07b06 error. Code: 7 Message: 7 PERMISSION_DENIED:
 # false for 'create' @ L594, false for 'create' @ L599, false for 'update' @ L594, false for 'update' @ L599
 # Subtest: durable transactions survive independent store instances and concurrent retries
 ok 82 - durable transactions survive independent store instances and concurrent retries

@@ -123,9 +123,9 @@
     },
     {
       "path": "civic1267-all-emulators-final.txt",
-      "bytes": 25890,
-      "sha256": "4fd3ad03893b9df6c7ac9d6a58eead2d5cabb0ba2c1734ab8f6fe4fb19d64fcd",
-      "gitBlobOid": "dd4a08fabd8f0e34e6b6bf6f4c769dadf4c19370"
+      "bytes": 25878,
+      "sha256": "3c9693fef1818ab6d6faa57b3524c11d9c92634dfdd6e0e94641bad67c0a8150",
+      "gitBlobOid": "d231f177d14a79e1c5544151e2956f649afbe3f5"
     },
     {
       "path": "civic1267-browser-results.json",
@@ -183,9 +183,9 @@
     },
     {
       "path": "civic1267-head-build-final.txt",
-      "bytes": 28490,
-      "sha256": "29e350a65b4b72dbf375dd146d9bba5b35c317ca33c283f2c16af3566b5b940f",
-      "gitBlobOid": "0cf02d2725ed347cf240d9505689f85a66756c73"
+      "bytes": 28489,
+      "sha256": "f674deab39fae77d4853a7cd925a5e528910a94f3144242c7746aaef7063baa4",
+      "gitBlobOid": "32b0b328c8a635f6c2a3827cdbd135aa7ce6a0fa"
     },
     {
       "path": "civic1267-head-contracts-final.txt",
@@ -265,5 +265,6 @@
       "sha256": "2028e480bee96933c6614d9919ba2b80b90be05e265717cd1217ea331b914590",
       "gitBlobOid": "c9eac243cb5513ca8db826766884686ba741fdf6"
     }
-  ]
+  ],
+  "publicLogNormalization": "Trailing horizontal whitespace stripped from captured plaintext logs; source, results and projections unchanged."
 }

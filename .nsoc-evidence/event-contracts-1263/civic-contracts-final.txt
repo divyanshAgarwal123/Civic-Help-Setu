@@ -1,0 +1,13 @@
+
+> civic-help-setu@0.0.0 contracts:check
+> node scripts/contracts/check.mjs --base be84cf1565aeafcf47cd5e8172c9959b4c1ba703
+
+Event contract APPLICATION_SUBMITTED@1.0.0, owner GoldRay19: 0 declared consumers; migration not required for bootstrap.
+Event contract APPLICATION_STATUS_CHANGED@1.0.0, owner GoldRay19: 0 declared consumers; migration not required for bootstrap.
+Event contract GRIEVANCE_LODGED@1.0.0, owner GoldRay19: 0 declared consumers; migration not required for bootstrap.
+Event contract GRIEVANCE_ESCALATED@1.0.0, owner GoldRay19: 0 declared consumers; migration not required for bootstrap.
+Event contract DEFICIENCY_NOTICE_ISSUED@1.0.0, owner GoldRay19: 0 declared consumers; migration not required for bootstrap.
+Event contract DOCUMENT_VERIFIED@1.0.0, owner GoldRay19: 0 declared consumers; migration not required for bootstrap.
+Event contract FEE_RECEIPT_ISSUED@1.0.0, owner GoldRay19: 0 declared consumers; migration not required for bootstrap.
+Event contract APPLICATION_SUBMITTED@2.0.0, owner GoldRay19: 0 declared consumers; migration documented.
+Civic contracts: 5 domains checked against base history.

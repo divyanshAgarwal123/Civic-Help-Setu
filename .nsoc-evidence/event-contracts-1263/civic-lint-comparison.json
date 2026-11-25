@@ -1,0 +1,15 @@
+{
+  "stats": {
+    "parent": {
+      "errors": 2303,
+      "warnings": 54
+    },
+    "head": {
+      "errors": 2303,
+      "warnings": 54
+    }
+  },
+  "additionalFindings": [],
+  "resolvedFindings": [],
+  "comparison": "Normalized relative file/rule/severity/message multiplicity; line numbers intentionally excluded because header documentation moves existing lines."
+}

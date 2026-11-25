@@ -1,0 +1,167 @@
+{
+  "issue": "https://github.com/GoldRay19/Civic-Help-Setu/issues/1263",
+  "sourceRepository": "https://github.com/divyanshAgarwal123/Civic-Help-Setu",
+  "sourceHead": "ca7c4247a7f395ab489323666fda8e053fc72ad3",
+  "actualSourceParent": "be84cf1565aeafcf47cd5e8172c9959b4c1ba703",
+  "sourceBlobs": [
+    {
+      "path": ".github/workflows/pr-quality.yml",
+      "gitBlobOid": "59db70d0667dc7957fcd69b82b23800c730aef48"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "gitBlobOid": "c837928a86082df785d2397f0d41d857d30d5fb9"
+    },
+    {
+      "path": "docs/CIVIC_EVENT_CONTRACTS.md",
+      "gitBlobOid": "fb76bb7bd462a56b9c6b3da4fabcc6e180db03e7"
+    },
+    {
+      "path": "docs/civic-domain-event-bus-and-transactional-outbox.md",
+      "gitBlobOid": "07ea6975aec02d2538f25767865737ee080a4046"
+    },
+    {
+      "path": "scripts/contracts/check.mjs",
+      "gitBlobOid": "213c0dba57a228e1bbe09554cd5af4f6b5571194"
+    },
+    {
+      "path": "scripts/contracts/event-check.test.js",
+      "gitBlobOid": "2c06d1086632db4b5eaa930ff4305972f4351e00"
+    },
+    {
+      "path": "scripts/platform-scorecard/policy.json",
+      "gitBlobOid": "a23115d8428d91440157215711fecf0c357bc827"
+    },
+    {
+      "path": "src/data/contracts/eventCompatibility.js",
+      "gitBlobOid": "7ba967dec21f9ab542d4f7284b510b19be8c8bbd"
+    },
+    {
+      "path": "src/data/contracts/eventCompatibility.test.js",
+      "gitBlobOid": "3b0560a057f1368b627d750f191eafbc53427f1f"
+    },
+    {
+      "path": "src/data/contracts/registry.json",
+      "gitBlobOid": "bbd3c8035dcdd2716207e6ff6b53443e93e58029"
+    },
+    {
+      "path": "src/services/civicDomainEventBusService.js",
+      "gitBlobOid": "59a16fed400816bbf4f11cb28c8ebf0cb5e9a0e0"
+    },
+    {
+      "path": "src/services/civicDomainEventContracts.test.js",
+      "gitBlobOid": "1be6cb572bfebe62f78929696130653f12adf63f"
+    }
+  ],
+  "capturedAt": "2026-11-25T08:48:07.355159+00:00",
+  "checks": {
+    "focusedTestsPassed": 49,
+    "newTests": 36,
+    "fullHeadPassed": 8570,
+    "fullHeadFailed": 109,
+    "fullParentPassed": 8534,
+    "fullParentFailed": 109,
+    "startupFailuresEach": 22,
+    "additionalFailureIds": 0,
+    "lintErrorsEach": 2303,
+    "lintWarningsEach": 54,
+    "additionalLintFindings": 0,
+    "securityLintErrorsEach": 35,
+    "securityLintIdentical": true,
+    "buildBothPass": true,
+    "lockedInstallPass": true,
+    "contractsActualParentPass": true,
+    "productionAuditHighOrCritical": 0,
+    "stagedSecrets": 0,
+    "sourcePinIntegrityRegression": "Branch-caused workflow-pin mismatch fixed; final full aggregate failures equal exact-parent109."
+  },
+  "limitations": [
+    "Genuine draft: full aggregate tests/lint/security gates fail on unchanged parent files. No all-green/readiness claim.",
+    "31 tracked full-directory secret findings byte-identical parent;1 generated artifact matches parent after normalizing only generated JS chunk hashes. Staged source scan0; no allowlist/gate weakening.",
+    "Process-local bus, no production caller bootstrap/durable database outbox/authentication; legacy1.0 payloads remain untyped; real consumer inventory currently empty.",
+    "500event synthetic regression is not production capacity. No UI paths changed or deployed runtime acceptance claimed.",
+    "Raw aggregate JSON reports remain local; public artifacts contain exact failed assertion IDs, startup suite names and normalized lint comparisons. Transcript trailing whitespace normalized."
+  ],
+  "artifacts": [
+    {
+      "path": "civic-focused.txt",
+      "sha256": "3951dfdf9e8143e27425a14c1fced94868f5ef2184a223fda267ba7572bad646",
+      "bytes": 457
+    },
+    {
+      "path": "civic-scoped-lint.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "civic-head-checks.json",
+      "sha256": "5a644229e4b5bfa40caee767ab6fa0641c29a442ef251904e78dbe2e95e2720d",
+      "bytes": 923
+    },
+    {
+      "path": "civic-parent-checks.json",
+      "sha256": "f523eb0eb5a82162942dac56c3b1828b75e90db4d389dbd135ef0a166a9c01ce",
+      "bytes": 933
+    },
+    {
+      "path": "civic-baseline-comparison.json",
+      "sha256": "e07769a711a26a80f1c49df91bcbd1c23bcd1402c8921d4a3f4b79071bba789a",
+      "bytes": 24244
+    },
+    {
+      "path": "civic-lint-comparison.json",
+      "sha256": "74b348ed61d0f73bdf466a989c583808eaae196d47d6f704c0fd28ed362d4c06",
+      "bytes": 371
+    },
+    {
+      "path": "civic-head-build.txt",
+      "sha256": "829cdb9cbf511fb5e60c9bfa41826d3b01530b57158dd06a4f8f14abe2ca19ce",
+      "bytes": 28301
+    },
+    {
+      "path": "civic-parent-build.txt",
+      "sha256": "10d7e057307a0eedf5ffabd443d8191683eeacc5bb05c42193879a8c29d9bf7b",
+      "bytes": 28301
+    },
+    {
+      "path": "civic-head-lint-security.txt",
+      "sha256": "850a63979f309da78b32a5024c1bdfa8961f73c8cd9051e0929be2db77595690",
+      "bytes": 4735
+    },
+    {
+      "path": "civic-parent-lint-security.txt",
+      "sha256": "43987c37678e533adc698f9df82a8bc07c378acb17e400783074f0dd5c4ea2b2",
+      "bytes": 4903
+    },
+    {
+      "path": "civic-contracts-final.txt",
+      "sha256": "201bc9dad99cc609967f56e57d1c4111203c5ad62859851914c5dfa30fce6e20",
+      "bytes": 1128
+    },
+    {
+      "path": "civic-audit.txt",
+      "sha256": "a9788308ef1dac421ab4978e4dcc27fa49f8dd8afd7980a0c378fed183df3a8e",
+      "bytes": 1742
+    },
+    {
+      "path": "civic-staged-secrets.txt",
+      "sha256": "9284f019f98b20526c3791b0dd0758f13fa094711efe4bd171f426d7cbcc9c29",
+      "bytes": 108
+    },
+    {
+      "path": "civic-secrets-baseline-comparison.json",
+      "sha256": "8284d3fdd4809b3401bbf595fd7aaebe3e301ee0255535031134af466f1c4cf2",
+      "bytes": 5157
+    },
+    {
+      "path": "validate-civic.py",
+      "sha256": "beacabe4efb206e766b86d1a3c8901354b5662ec12a0c76a9681cc45185012d0",
+      "bytes": 1243
+    },
+    {
+      "path": "event-contract-impact.json",
+      "sha256": "f06e00d6b138ce34a664154a6c5530790c4d706826f6687d824037e3a8dc22ba",
+      "bytes": 1744
+    }
+  ]
+}

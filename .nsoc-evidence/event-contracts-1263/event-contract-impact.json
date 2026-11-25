@@ -1,0 +1,63 @@
+{
+  "base": "be84cf1565aeafcf47cd5e8172c9959b4c1ba703",
+  "inventoryCoverage": "Repository-declared consumers only; inspect runtime inventory before producer rollout.",
+  "changes": [
+    {
+      "eventType": "APPLICATION_SUBMITTED",
+      "version": "1.0.0",
+      "owner": "GoldRay19",
+      "consumers": [],
+      "migration": null
+    },
+    {
+      "eventType": "APPLICATION_STATUS_CHANGED",
+      "version": "1.0.0",
+      "owner": "GoldRay19",
+      "consumers": [],
+      "migration": null
+    },
+    {
+      "eventType": "GRIEVANCE_LODGED",
+      "version": "1.0.0",
+      "owner": "GoldRay19",
+      "consumers": [],
+      "migration": null
+    },
+    {
+      "eventType": "GRIEVANCE_ESCALATED",
+      "version": "1.0.0",
+      "owner": "GoldRay19",
+      "consumers": [],
+      "migration": null
+    },
+    {
+      "eventType": "DEFICIENCY_NOTICE_ISSUED",
+      "version": "1.0.0",
+      "owner": "GoldRay19",
+      "consumers": [],
+      "migration": null
+    },
+    {
+      "eventType": "DOCUMENT_VERIFIED",
+      "version": "1.0.0",
+      "owner": "GoldRay19",
+      "consumers": [],
+      "migration": null
+    },
+    {
+      "eventType": "FEE_RECEIPT_ISSUED",
+      "version": "1.0.0",
+      "owner": "GoldRay19",
+      "consumers": [],
+      "migration": null
+    },
+    {
+      "eventType": "APPLICATION_SUBMITTED",
+      "version": "2.0.0",
+      "owner": "GoldRay19",
+      "consumers": [],
+      "migration": "Keep publishing1.0.0 until every applicable consumer explicitly accepts2.0.0. Upgrade consumer version declarations first, then opt the producer into2.0.0 with a nonempty string serviceId. Keep1.0.0 and its schema for old consumers and rollback; no automatic migration or retirement."
+    }
+  ],
+  "errors": []
+}

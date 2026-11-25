@@ -1,0 +1,5 @@
+
+> civic-help-setu@0.0.0 contracts:check
+> node scripts/contracts/check.mjs --base eebce2d33ff8a4c430246d370be2cc17a247cc55
+
+Civic contracts: 5 domains checked against base history.

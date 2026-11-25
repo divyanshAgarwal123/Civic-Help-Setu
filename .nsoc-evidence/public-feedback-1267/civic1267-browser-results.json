@@ -1,0 +1,246 @@
+{
+  "results": [
+    {
+      "mode": "dev",
+      "width": 1280,
+      "origin": "http://127.0.0.1:63989",
+      "authorization": "synthetic moderator fixture; real Clerk denial tested separately",
+      "errors": [],
+      "submitted": true,
+      "focusInsideDialog": true,
+      "escapeDismissed": true,
+      "reviewed": true,
+      "horizontalOverflow": false
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "origin": "http://127.0.0.1:63989",
+      "authorization": "synthetic moderator fixture; real Clerk denial tested separately",
+      "errors": [],
+      "submitted": true,
+      "focusInsideDialog": true,
+      "escapeDismissed": true,
+      "reviewed": true,
+      "horizontalOverflow": false
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "origin": "http://127.0.0.1:64023",
+      "authorization": "synthetic moderator fixture; real Clerk denial tested separately",
+      "errors": [],
+      "submitted": true,
+      "focusInsideDialog": true,
+      "escapeDismissed": true,
+      "reviewed": true,
+      "horizontalOverflow": false
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "origin": "http://127.0.0.1:64023",
+      "authorization": "synthetic moderator fixture; real Clerk denial tested separately",
+      "errors": [],
+      "submitted": true,
+      "focusInsideDialog": true,
+      "escapeDismissed": true,
+      "reviewed": true,
+      "horizontalOverflow": false
+    }
+  ],
+  "requests": [
+    {
+      "mode": "dev",
+      "method": "POST",
+      "view": null,
+      "status": 201
+    },
+    {
+      "mode": "dev",
+      "method": "GET",
+      "view": null,
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "GET",
+      "view": "moderation",
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "GET",
+      "view": "audit",
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "GET",
+      "view": "audit",
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "PATCH",
+      "view": null,
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "GET",
+      "view": null,
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "GET",
+      "view": "moderation",
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "POST",
+      "view": null,
+      "status": 201
+    },
+    {
+      "mode": "dev",
+      "method": "GET",
+      "view": null,
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "GET",
+      "view": "moderation",
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "GET",
+      "view": "audit",
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "GET",
+      "view": "audit",
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "PATCH",
+      "view": null,
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "GET",
+      "view": "moderation",
+      "status": 200
+    },
+    {
+      "mode": "dev",
+      "method": "GET",
+      "view": null,
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "POST",
+      "view": null,
+      "status": 201
+    },
+    {
+      "mode": "production",
+      "method": "GET",
+      "view": null,
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "GET",
+      "view": "moderation",
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "GET",
+      "view": "audit",
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "GET",
+      "view": "audit",
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "PATCH",
+      "view": null,
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "GET",
+      "view": null,
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "GET",
+      "view": "moderation",
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "POST",
+      "view": null,
+      "status": 201
+    },
+    {
+      "mode": "production",
+      "method": "GET",
+      "view": null,
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "GET",
+      "view": "moderation",
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "GET",
+      "view": "audit",
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "GET",
+      "view": "audit",
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "PATCH",
+      "view": null,
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "GET",
+      "view": null,
+      "status": 200
+    },
+    {
+      "mode": "production",
+      "method": "GET",
+      "view": "moderation",
+      "status": 200
+    }
+  ]
+}

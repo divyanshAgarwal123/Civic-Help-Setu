@@ -1,0 +1,8 @@
+
+ RUN  v5.1.1 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267
+
+
+ Test Files  10 passed (10)
+      Tests  159 passed (159)
+   Start at  23:17:53
+   Duration  1.14s (import 34%, tests 32%, transform 21%, environment 13%, worker 1%)

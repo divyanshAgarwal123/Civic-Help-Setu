@@ -1,0 +1,9 @@
+# Public guide-feedback pipeline #1267
+
+Source and exact parent are bound in manifest.json. The feature reuses the existing guide feedback UI and Firestore collection. It includes durable retries, actor quotas, separate spam/moderation queues, revision audit, SLA flags, private attachment quarantine and thresholded categorical reporting.
+
+159 focused tests and 88 real Firebase emulator tests passed. Four Chrome acceptance cases cover development/production at 1280/390 widths, real same-origin HTTP intake and moderation against Firestore, focus/Escape and overflow. Browser moderator identity is an explicitly synthetic server fixture, not a live Clerk attestation. Real malware scanning and IAM URL signing need operator staging verification; no production credentials or scanner were invented.
+
+The full canonical suite still fails on upstream: head 8794 passed / 110 assertion failures / 24 startup failures; exact parent 8764 passed / 111 assertion failures / 24 startup failures. No new failing assertion/startup signatures or mapped ESLint diagnostics. One native API startup assertion is repaired. ESLint head 2324 errors/53 warnings, parent 2340/54; security lint 35 errors on each. Build, contract audit, production high/critical dependency audit and source-commit secret scan pass. This is completed source awaiting repository-wide gates/maintainer review, not an all-green claim.
+
+Compressed test/lint files are full status/diagnostic projections without exception dumps or embedded source codeframes. Their raw local report digests are included for provenance; do not describe projections as verbatim raw logs. civic1267-validation-summary.json explains the unchanged-line mapping used in the lint comparison. See the source docs/PUBLIC_FEEDBACK_PIPELINE.md for configuration, cutover of legacy records, private bucket/scanner obligations, rollback, capacity limits and recovery.

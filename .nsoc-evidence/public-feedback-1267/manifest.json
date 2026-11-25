@@ -1,0 +1,269 @@
+{
+  "issue": "https://github.com/GoldRay19/Civic-Help-Setu/issues/1267",
+  "sourceRepository": "https://github.com/divyanshAgarwal123/Civic-Help-Setu",
+  "sourceHead": "c17f4d479913094d0ce2d03ba15ce169cce2adb3",
+  "actualSourceParent": "eebce2d33ff8a4c430246d370be2cc17a247cc55",
+  "capturedAt": "2026-11-25T17:55:52.021488+00:00",
+  "sourceBlobs": [
+    {
+      "path": ".env.example",
+      "gitBlobOid": "4af861f5f9fa867252b029fd1d7661f921222ca0"
+    },
+    {
+      "path": "api/[...path].js",
+      "gitBlobOid": "b7221b38467c19b8dc368890e9c212c94f8c0f8e"
+    },
+    {
+      "path": "api/_lib/feedbackPipeline.js",
+      "gitBlobOid": "b98442c73f0a2d25e0cc7b3b3c732907acca2d85"
+    },
+    {
+      "path": "api/_lib/handlers/bottleneck-feedback.js",
+      "gitBlobOid": "95a533191b1f03ee37313a4232272f8a09e247a9"
+    },
+    {
+      "path": "docs/FIREBASE_RULES.md",
+      "gitBlobOid": "54f718ce3d860498ed813d438473927ac8fc571f"
+    },
+    {
+      "path": "docs/PUBLIC_FEEDBACK_PIPELINE.md",
+      "gitBlobOid": "a54dd1fd55c958c3e31e0bfefda4c919a7de3aaf"
+    },
+    {
+      "path": "firebase/emulator/feedback-pipeline.test.mjs",
+      "gitBlobOid": "2da3c65cde850c5073deeb911d620e41ef2d8c37"
+    },
+    {
+      "path": "firebase/emulator/firestore-rules.test.mjs",
+      "gitBlobOid": "abaf0875189f870953dc2397c45dee57c8210590"
+    },
+    {
+      "path": "firebase/emulator/package.json",
+      "gitBlobOid": "726c08eba51d27ffeacfa6f66f23f170eaa8b84c"
+    },
+    {
+      "path": "firebase/firestore.indexes.json",
+      "gitBlobOid": "3a1dcecc3fad6c134feac0fb08c9fe15fd2c730b"
+    },
+    {
+      "path": "firebase/firestore.rules",
+      "gitBlobOid": "5910eafeabf2e02cf6f4165faf33a8ec301ae186"
+    },
+    {
+      "path": "scripts/feedback-scan-result.mjs",
+      "gitBlobOid": "5cb44146947db64b00f0430bd77fde06952a9698"
+    },
+    {
+      "path": "src/components/AccessibilityInspectorPanel.jsx",
+      "gitBlobOid": "3cc32d5f89309e0927cbd3498dcb4cd92da56f75"
+    },
+    {
+      "path": "src/components/admin/BottleneckFeedbackDashboard.jsx",
+      "gitBlobOid": "55668115b4856f5e6f63b32b369ff6c417e58f68"
+    },
+    {
+      "path": "src/components/admin/ServiceDraftsPanel.test.jsx",
+      "gitBlobOid": "f8e18aead84ad33bf602e7c21bd1854451bb32ee"
+    },
+    {
+      "path": "src/components/feedback/BottleneckFeedbackPipeline.test.jsx",
+      "gitBlobOid": "c008360f3fb637bd21fe850b06b9bf08d95287e3"
+    },
+    {
+      "path": "src/components/feedback/BottleneckFeedbackPrompt.jsx",
+      "gitBlobOid": "7b7c18e2b7361be4d9aa80796d04534a192a183d"
+    },
+    {
+      "path": "src/context/AuthContext.jsx",
+      "gitBlobOid": "942f434ae29f5ba638dec83e9684b59d6f270e76"
+    },
+    {
+      "path": "src/pages/Admin.jsx",
+      "gitBlobOid": "d343b7411a1a5cc64b68ace7f11b4168d9cb1638"
+    },
+    {
+      "path": "src/pages/ImportConsole.jsx",
+      "gitBlobOid": "1219e22d4e5142b05ca42a6028a5bd8e073b6fb0"
+    },
+    {
+      "path": "src/pages/ServiceDetails.test.jsx",
+      "gitBlobOid": "13bfadd697e3a111ad15cc6c90209a0eace0cc65"
+    },
+    {
+      "path": "src/pages/ServiceDetailsNav.test.jsx",
+      "gitBlobOid": "bf1030158be7ffe51cb4b9fe156c453732b47666"
+    },
+    {
+      "path": "src/services/bottleneckFeedbackApi.js",
+      "gitBlobOid": "dfcb4e2e9fb49e440fb6f5dfc2522d827d515eec"
+    },
+    {
+      "path": "src/services/bottleneckFeedbackContract.js",
+      "gitBlobOid": "6e43f9fba089816e9fdf3ca73305da1003d7d11d"
+    },
+    {
+      "path": "src/services/bottleneckFeedbackService.js",
+      "gitBlobOid": "e05d1072ea7e716e0914118e8a913545c16cdc7e"
+    },
+    {
+      "path": "src/services/tenantContext.js",
+      "gitBlobOid": "81d85f9f500ac82ff5034dbdd9beb982bcca88aa"
+    },
+    {
+      "path": "tests/bottleneck-feedback.test.js",
+      "gitBlobOid": "efa3de9bbbddaed70b1a0a3ecb4ef952b84df9b8"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "README.md",
+      "bytes": 1897,
+      "sha256": "21cb735c0530c0b04224f8a2c27710879adf18d74d2c31a0fa66468080995966",
+      "gitBlobOid": "cf8529c5eeff2e1c4be9b9d6b8b930511d3fd491"
+    },
+    {
+      "path": "civic1267-all-emulators-final.txt",
+      "bytes": 25890,
+      "sha256": "4fd3ad03893b9df6c7ac9d6a58eead2d5cabb0ba2c1734ab8f6fe4fb19d64fcd",
+      "gitBlobOid": "dd4a08fabd8f0e34e6b6bf6f4c769dadf4c19370"
+    },
+    {
+      "path": "civic1267-browser-results.json",
+      "bytes": 4790,
+      "sha256": "09ab10ed049ceb88db2dcf227d77f198adb48346bc363598d0f8edaab3b1acff",
+      "gitBlobOid": "3b938ade1dcd986ca4193f0a9aacf096e64d8561"
+    },
+    {
+      "path": "civic1267-commit-secrets.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "gitBlobOid": "fe51488c7066f6687ef680d6bfaa4f7768ef205c"
+    },
+    {
+      "path": "civic1267-dev-1280-moderation.png",
+      "bytes": 318524,
+      "sha256": "36df135c2c0bd119a4a4b80a73efe34b806ff52d61fb6cfdc780a75fbb05da8b",
+      "gitBlobOid": "f641cb81ba35e7c6f2382b212e0c5bf762a08ff4"
+    },
+    {
+      "path": "civic1267-dev-1280-submission.png",
+      "bytes": 1670708,
+      "sha256": "737c3257fa8ffe6e9105674aca28736fe3bffc2dda66363fff7fa6bbb54abccb",
+      "gitBlobOid": "727e2fdd4aaebebac3095938118b910767467568"
+    },
+    {
+      "path": "civic1267-dev-390-moderation.png",
+      "bytes": 315110,
+      "sha256": "ab6820ae0285265179d997fbf4632bc7847a90a6bd70e7cf055514ddeb3fac86",
+      "gitBlobOid": "40387da24d4a459f41a01e94a1876b35aa8ddc05"
+    },
+    {
+      "path": "civic1267-dev-390-submission.png",
+      "bytes": 1629492,
+      "sha256": "e52aff5911737032431002baf0a3aee3f6a1e3868165681c854c8a73d1db2953",
+      "gitBlobOid": "c89aae534e3eb6efc1d01c7c6815549702e1f4f6"
+    },
+    {
+      "path": "civic1267-final-fixture-tests.txt",
+      "bytes": 224,
+      "sha256": "0fb9aa52693c4329b2e2d7d92c83a9374bfae7048dc5879a40f23086af571e8b",
+      "gitBlobOid": "bad958952847667980de9b811a354c65d29240b6"
+    },
+    {
+      "path": "civic1267-focused-tests-final.txt",
+      "bytes": 246,
+      "sha256": "f074fe7577076df49f8097b3cb2193db1d01a5b2e389bdcdc93112dfc8015722",
+      "gitBlobOid": "d47b4f4040127336c40fa5885572a811cfdf17b8"
+    },
+    {
+      "path": "civic1267-head-audit.txt",
+      "bytes": 1349,
+      "sha256": "1d0b9e5da33416bd9512b38cd04d889aa3bb18a14fbdcd43d439c5dd1632d38e",
+      "gitBlobOid": "f34aadf14d0991bd1fe8ada5022384ef09c91f24"
+    },
+    {
+      "path": "civic1267-head-build-final.txt",
+      "bytes": 28490,
+      "sha256": "29e350a65b4b72dbf375dd146d9bba5b35c317ca33c283f2c16af3566b5b940f",
+      "gitBlobOid": "0cf02d2725ed347cf240d9505689f85a66756c73"
+    },
+    {
+      "path": "civic1267-head-contracts-final.txt",
+      "bytes": 182,
+      "sha256": "6e4bd924e719d7f69bb8e95256e12c170780b12502cf404b53e738f8583906b5",
+      "gitBlobOid": "b21149f27bde385269d27fea88f3840e6379b531"
+    },
+    {
+      "path": "civic1267-head-security-lint-final.txt",
+      "bytes": 4734,
+      "sha256": "999d27abf482979ba58f8873674ebb09387b5f06a70e1764e89a4b2cb726283f",
+      "gitBlobOid": "f461ffe6f8f858ea5cb0f5f0c3d8686883cc0e24"
+    },
+    {
+      "path": "civic1267-parent-security-lint.txt",
+      "bytes": 4902,
+      "sha256": "af8812b9a26f02564d999de1307898b5e5195ec8dc93df6a973890ab68b805da",
+      "gitBlobOid": "bf8b2a4f9fec318707a8f9054f64ed379ff5a385"
+    },
+    {
+      "path": "civic1267-production-1280-moderation.png",
+      "bytes": 338955,
+      "sha256": "3fca49971ae872671d1de6fa190794f389059f71d1a6d82d86ea57bf71704ddc",
+      "gitBlobOid": "e1716132e65c2fb2bc2086e12f68f744d7b1aae8"
+    },
+    {
+      "path": "civic1267-production-1280-submission.png",
+      "bytes": 1670473,
+      "sha256": "70b2ff513d2380e992440d9b520bb5a44923abebb1f25a30ddd0c9309ecfcf3b",
+      "gitBlobOid": "c9953888a178b2a804d9326b932e0d3f52739dd7"
+    },
+    {
+      "path": "civic1267-production-390-moderation.png",
+      "bytes": 321320,
+      "sha256": "2fb2be4150c5c5d8153647be41daa507f9b1d96070026cc84130e38fceabc2d8",
+      "gitBlobOid": "ae6959ae82d1075d13f764d680eabc12340fcc63"
+    },
+    {
+      "path": "civic1267-production-390-submission.png",
+      "bytes": 1625482,
+      "sha256": "83682c95f1531f08f1cbce8d63049daf3856ea7ad2217dd79437a6b3161f78f1",
+      "gitBlobOid": "5fe4c3ebb7f1f4f79add9217be29d700f4209ca3"
+    },
+    {
+      "path": "civic1267-staged-secrets.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "gitBlobOid": "fe51488c7066f6687ef680d6bfaa4f7768ef205c"
+    },
+    {
+      "path": "civic1267-validation-summary.json",
+      "bytes": 8301,
+      "sha256": "cec2eb4650cf216a61f43d6daa4039701632b54a5410e2ea9db8759da0b32c37",
+      "gitBlobOid": "c940da033dea13a5591a5d4a3669616222903e7c"
+    },
+    {
+      "path": "head-lint-diagnostics.json.gz",
+      "bytes": 33354,
+      "sha256": "4050a0d28fc849aa6b79f74718047db98c6c9797ad78b8d15473150fb1a405bb",
+      "gitBlobOid": "46e69036f8d237bfcb54811644646bdb34eddaf8"
+    },
+    {
+      "path": "head-test-statuses.json.gz",
+      "bytes": 233703,
+      "sha256": "62afecb0cc286b990c5d1374caee7cbb8c2b6fa5f3270d0ec726006c39b81579",
+      "gitBlobOid": "caeb75bf9a91fd76af720b4280e8bc9de536766c"
+    },
+    {
+      "path": "parent-lint-diagnostics.json.gz",
+      "bytes": 33525,
+      "sha256": "64a0153fcc9c2e074f9b64ca917a66c38a70cd254d92dc1b4717e6242eb1322d",
+      "gitBlobOid": "fc95dbdce31b36a08ab1c1e9031c1559c8e77512"
+    },
+    {
+      "path": "parent-test-statuses.json.gz",
+      "bytes": 233135,
+      "sha256": "2028e480bee96933c6614d9919ba2b80b90be05e265717cd1217ea331b914590",
+      "gitBlobOid": "c9eac243cb5513ca8db826766884686ba741fdf6"
+    }
+  ]
+}

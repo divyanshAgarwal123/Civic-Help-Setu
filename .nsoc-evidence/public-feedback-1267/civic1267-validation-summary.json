@@ -1,0 +1,115 @@
+{
+  "observedAt": "2026-11-25T17:53:07.595379+00:00",
+  "actualParent": "eebce2d33ff8a4c430246d370be2cc17a247cc55",
+  "sourceWorktree": "/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267",
+  "tests": {
+    "head": {
+      "numPassedTests": 8794,
+      "numFailedTests": 110,
+      "numFailedTestSuites": 107,
+      "numTotalTests": 8904
+    },
+    "parent": {
+      "numPassedTests": 8764,
+      "numFailedTests": 111,
+      "numFailedTestSuites": 109,
+      "numTotalTests": 8875
+    },
+    "newFailingAssertions": [],
+    "resolvedFailingAssertions": [
+      [
+        "tests/api-dispatcher-loads.test.js",
+        "api/[...path].js under plain Node loads, answers an unknown route with the dispatcher JSON 404, and routes nested paths to their handler"
+      ]
+    ],
+    "headStartupFailures": {
+      "tests/address-change-corrections.test.js": "Cannot find module './address-change-corrections' imported from <worktree>/tests/address-change-corrections.test.js",
+      "tests/api-synthetic-datasets.test.js": "Cannot find module '../api/synthetic-datasets.js' imported from <worktree>/tests/api-synthetic-datasets.test.js",
+      "tests/community-facility-corrections.test.js": "Transform failed with 3 errors:",
+      "tests/crematorium-corrections.test.js": "Transform failed with 3 errors:",
+      "tests/fire-compliance-feedback.test.js": "Transform failed with 2 errors:",
+      "tests/ghg-inventory.test.js": "Cannot find module '../api/ghg-inventory.js' imported from <worktree>/tests/ghg-inventory.test.js",
+      "tests/library-corrections.test.js": "Cannot find module './library-corrections' imported from <worktree>/tests/library-corrections.test.js",
+      "tests/pds-observations.test.js": "Transform failed with 1 error:",
+      "tests/rental-checklist-corrections.test.js": "Cannot find module '../api/rental-checklist-corrections.js' imported from <worktree>/tests/rental-checklist-corrections.test.js",
+      "tests/tenant-administration.test.js": "Cannot find module '../api/tenant-administration.js' imported from <worktree>/tests/tenant-administration.test.js",
+      "tests/tenantIsolation.test.js": "Cannot find module '../_lib/firebaseAdmin.js' imported from <worktree>/src/services/tenantQueries.js",
+      "tests/tenantLoadFailureInjection.test.js": "Cannot find module '../_lib/firebaseAdmin.js' imported from <worktree>/src/services/tenantQueries.js",
+      "tests/tender-corrections.test.js": "Transform failed with 1 error:",
+      "tests/up-visit-planner.test.js": "Transform failed with 1 error:",
+      "src/components/DocumentValidityCalendar.test.jsx": "Cannot find module './DocumentValidityCalendarTable' imported from <worktree>/src/components/DocumentValidityCalendar.test.jsx",
+      "src/components/SlotAvailabilityHeatmap.test.jsx": "Cannot find package '@testing-library/react' imported from <worktree>/src/components/SlotAvailabilityHeatmap.test.jsx",
+      "src/data/eligibilityDsl.test.js": "Transform failed with 1 error:",
+      "src/pages/NationalCivicDocumentHub.test.jsx": "Cannot find package '@testing-library/react' imported from <worktree>/src/pages/NationalCivicDocumentHub.test.jsx",
+      "src/components/admin/CoverageMatrix.test.jsx": "Cannot find package '@testing-library/react' imported from <worktree>/src/components/admin/CoverageMatrix.test.jsx",
+      "src/components/admin/RadarChart.test.jsx": "Transform failed with 1 error:",
+      "src/services/upVisitPlannerService.test.js": "Transform failed with 1 error:",
+      "src/services/waterBillVisualizerService.test.js": "Transform failed with 4 errors:",
+      "src/tasks/scheduler/scheduler.test.js": "Cannot find module '../_lib/firebaseAdmin.js' imported from <worktree>/src/tasks/queries/taskQueries.js",
+      "src/data/__tests__/terminologyGraph.test.js": "describe is not defined"
+    },
+    "parentStartupFailures": {
+      "tests/address-change-corrections.test.js": "Cannot find module './address-change-corrections' imported from <worktree>/tests/address-change-corrections.test.js",
+      "tests/api-synthetic-datasets.test.js": "Cannot find module '../api/synthetic-datasets.js' imported from <worktree>/tests/api-synthetic-datasets.test.js",
+      "tests/community-facility-corrections.test.js": "Transform failed with 3 errors:",
+      "tests/crematorium-corrections.test.js": "Transform failed with 3 errors:",
+      "tests/fire-compliance-feedback.test.js": "Transform failed with 2 errors:",
+      "tests/ghg-inventory.test.js": "Cannot find module '../api/ghg-inventory.js' imported from <worktree>/tests/ghg-inventory.test.js",
+      "tests/library-corrections.test.js": "Cannot find module './library-corrections' imported from <worktree>/tests/library-corrections.test.js",
+      "tests/pds-observations.test.js": "Transform failed with 1 error:",
+      "tests/rental-checklist-corrections.test.js": "Cannot find module '../api/rental-checklist-corrections.js' imported from <worktree>/tests/rental-checklist-corrections.test.js",
+      "tests/tenant-administration.test.js": "Cannot find module '../api/tenant-administration.js' imported from <worktree>/tests/tenant-administration.test.js",
+      "tests/tenantIsolation.test.js": "Cannot find module '../_lib/firebaseAdmin.js' imported from <worktree>/src/services/tenantQueries.js",
+      "tests/tenantLoadFailureInjection.test.js": "Cannot find module '../_lib/firebaseAdmin.js' imported from <worktree>/src/services/tenantQueries.js",
+      "tests/tender-corrections.test.js": "Transform failed with 1 error:",
+      "tests/up-visit-planner.test.js": "Transform failed with 1 error:",
+      "src/components/DocumentValidityCalendar.test.jsx": "Cannot find module './DocumentValidityCalendarTable' imported from <worktree>/src/components/DocumentValidityCalendar.test.jsx",
+      "src/components/SlotAvailabilityHeatmap.test.jsx": "Cannot find package '@testing-library/react' imported from <worktree>/src/components/SlotAvailabilityHeatmap.test.jsx",
+      "src/data/eligibilityDsl.test.js": "Transform failed with 1 error:",
+      "src/pages/NationalCivicDocumentHub.test.jsx": "Cannot find package '@testing-library/react' imported from <worktree>/src/pages/NationalCivicDocumentHub.test.jsx",
+      "src/components/admin/CoverageMatrix.test.jsx": "Cannot find package '@testing-library/react' imported from <worktree>/src/components/admin/CoverageMatrix.test.jsx",
+      "src/components/admin/RadarChart.test.jsx": "Transform failed with 1 error:",
+      "src/services/upVisitPlannerService.test.js": "Transform failed with 1 error:",
+      "src/services/waterBillVisualizerService.test.js": "Transform failed with 4 errors:",
+      "src/tasks/scheduler/scheduler.test.js": "Cannot find module '../_lib/firebaseAdmin.js' imported from <worktree>/src/tasks/queries/taskQueries.js",
+      "src/data/__tests__/terminologyGraph.test.js": "describe is not defined"
+    },
+    "newStartupFailures": {}
+  },
+  "lint": {
+    "headErrors": 2324,
+    "headWarnings": 53,
+    "parentErrors": 2340,
+    "parentWarnings": 54,
+    "newDiagnosticsMappedToUnchangedParentLines": [],
+    "method": "Exact unchanged-line mapping using difflib; error prose excludes embedded codeframe line numbers only."
+  },
+  "firebaseEmulators": {
+    "passed": 88,
+    "failed": 0,
+    "realLocalServices": [
+      "auth",
+      "firestore",
+      "storage"
+    ]
+  },
+  "focused": {
+    "passed": 159,
+    "failed": 0
+  },
+  "build": "PASS",
+  "contracts": "PASS actual parent",
+  "productionDependencyAudit": "PASS no high/critical",
+  "acceptanceLimitations": [
+    "Full lint/test/security-lint remain red on upstream parent; do not claim all gates green.",
+    "Browser moderator authorization is an explicit synthetic fixture; real Clerk rejection is covered separately.",
+    "Malware engine and IAM URL signing require operator staging verification; all uploads fail closed until trusted scan."
+  ],
+  "stagedSecretScan": {
+    "findings": 0,
+    "method": "All 27 task files scanned with committed config, no suppressions; synthetic idempotency fixture expressed without a credential-like literal."
+  },
+  "sourceHead": "c17f4d479913094d0ce2d03ba15ce169cce2adb3",
+  "actualSourceParent": "eebce2d33ff8a4c430246d370be2cc17a247cc55",
+  "sourceCommitSecretScan": "PASS zero findings; one commit scanned"
+}

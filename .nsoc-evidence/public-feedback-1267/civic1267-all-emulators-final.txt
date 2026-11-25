@@ -1,0 +1,580 @@
+⚠  emulators: You are not currently authenticated so some features may not work correctly. Please run firebase login to authenticate the CLI.
+i  emulators: Starting emulators: auth, firestore, storage
+i  firestore: Firestore Emulator logging to firestore-debug.log
+✔  firestore: Firestore Emulator UI websocket is running on 9150.
+⚠  Unexpected rules runtime error: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/Users/divyanshagarwal/.cache/firebase/emulators/cloud-storage-rules-runtime-v1.1.3.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+
+i  Running script: node --test --test-concurrency=1 firebase/emulator/firestore-rules.test.mjs firebase/emulator/storage-rules.test.mjs firebase/emulator/cloud-records.test.mjs firebase/emulator/token-flow.test.mjs firebase/emulator/toilet-submissions.test.mjs firebase/emulator/feedback-pipeline.test.mjs
+TAP version 13
+# Subtest: civicbridge_vault_docs -> users/{uid}/vaultDocs: accepted for the owner, read back unchanged, closed to others
+ok 1 - civicbridge_vault_docs -> users/{uid}/vaultDocs: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 1521.94925
+  type: 'test'
+  ...
+# Subtest: civicbridge_saved_rich -> users/{uid}/saved: accepted for the owner, read back unchanged, closed to others
+ok 2 - civicbridge_saved_rich -> users/{uid}/saved: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 236.420291
+  type: 'test'
+  ...
+# Subtest: civicbridge_saved -> users/{uid}/saved: accepted for the owner, read back unchanged, closed to others
+ok 3 - civicbridge_saved -> users/{uid}/saved: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 205.8265
+  type: 'test'
+  ...
+# Subtest: civic_compared_services -> users/{uid}/saved: accepted for the owner, read back unchanged, closed to others
+ok 4 - civic_compared_services -> users/{uid}/saved: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 62.670375
+  type: 'test'
+  ...
+# Subtest: civicbridge_applications -> users/{uid}/applications: accepted for the owner, read back unchanged, closed to others
+ok 5 - civicbridge_applications -> users/{uid}/applications: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 190.579666
+  type: 'test'
+  ...
+# Subtest: civicbridge_track_applications -> users/{uid}/applications: accepted for the owner, read back unchanged, closed to others
+ok 6 - civicbridge_track_applications -> users/{uid}/applications: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 188.222
+  type: 'test'
+  ...
+# Subtest: civicbridge_office_tokens -> users/{uid}/officeTokens: accepted for the owner, read back unchanged, closed to others
+ok 7 - civicbridge_office_tokens -> users/{uid}/officeTokens: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 176.273417
+  type: 'test'
+  ...
+# Subtest: civicbridge_reminders -> users/{uid}/reminders: accepted for the owner, read back unchanged, closed to others
+ok 8 - civicbridge_reminders -> users/{uid}/reminders: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 187.876458
+  type: 'test'
+  ...
+# Subtest: civicbridge_notification_settings -> users/{uid}/settings: accepted for the owner, read back unchanged, closed to others
+ok 9 - civicbridge_notification_settings -> users/{uid}/settings: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 54.973708
+  type: 'test'
+  ...
+# Subtest: civic_service_fee_preferences -> users/{uid}/settings: accepted for the owner, read back unchanged, closed to others
+ok 10 - civic_service_fee_preferences -> users/{uid}/settings: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 55.507167
+  type: 'test'
+  ...
+# Subtest: civicbridge_ai_context_consent -> users/{uid}/settings: accepted for the owner, read back unchanged, closed to others
+ok 11 - civicbridge_ai_context_consent -> users/{uid}/settings: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 50.910209
+  type: 'test'
+  ...
+# Subtest: civicbridge_eligibility_assessments -> users/{uid}/assessments: accepted for the owner, read back unchanged, closed to others
+ok 12 - civicbridge_eligibility_assessments -> users/{uid}/assessments: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 171.28575
+  type: 'test'
+  ...
+# Subtest: civic_grievance_tickets -> users/{uid}/grievanceTickets: accepted for the owner, read back unchanged, closed to others
+ok 13 - civic_grievance_tickets -> users/{uid}/grievanceTickets: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 176.827
+  type: 'test'
+  ...
+# Subtest: civicbridge_checklists -> users/{uid}/checklists: accepted for the owner, read back unchanged, closed to others
+ok 14 - civicbridge_checklists -> users/{uid}/checklists: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 55.818709
+  type: 'test'
+  ...
+# Subtest: civicbridge_checklist -> users/{uid}/checklists: accepted for the owner, read back unchanged, closed to others
+ok 15 - civicbridge_checklist -> users/{uid}/checklists: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 169.03275
+  type: 'test'
+  ...
+# Subtest: civicbridge_form_drafts -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+ok 16 - civicbridge_form_drafts -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 166.084458
+  type: 'test'
+  ...
+# Subtest: civic_grievance_evidence_drafts -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+ok 17 - civic_grievance_evidence_drafts -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 173.749458
+  type: 'test'
+  ...
+# Subtest: civic_life_event_journeys -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+ok 18 - civic_life_event_journeys -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 54.144459
+  type: 'test'
+  ...
+# Subtest: civicbridge_journey_handoffs_v1 -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+ok 19 - civicbridge_journey_handoffs_v1 -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 161.83375
+  type: 'test'
+  ...
+# Subtest: civic_grievance_drafts_v1 -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+ok 20 - civic_grievance_drafts_v1 -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 171.216417
+  type: 'test'
+  ...
+# Subtest: civicbridge_preparation_plans_v1 -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+ok 21 - civicbridge_preparation_plans_v1 -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 166.840583
+  type: 'test'
+  ...
+# Subtest: civicbridge_applicant_profiles_v1 -> users/{uid}/applicantProfiles: accepted for the owner, read back unchanged, closed to others
+ok 22 - civicbridge_applicant_profiles_v1 -> users/{uid}/applicantProfiles: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 159.396708
+  type: 'test'
+  ...
+# Subtest: civicbridge_readiness_scorecards -> users/{uid}/scorecards: accepted for the owner, read back unchanged, closed to others
+ok 23 - civicbridge_readiness_scorecards -> users/{uid}/scorecards: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 166.3695
+  type: 'test'
+  ...
+# Subtest: civicbridge_chat_history -> users/{uid}/assistantChats: accepted for the owner, read back unchanged, closed to others
+ok 24 - civicbridge_chat_history -> users/{uid}/assistantChats: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 49.387625
+  type: 'test'
+  ...
+# Subtest: civicbridge_citizen_drafts_v1 -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+ok 25 - civicbridge_citizen_drafts_v1 -> users/{uid}/drafts: accepted for the owner, read back unchanged, closed to others
+  ---
+  duration_ms: 49.799167
+  type: 'test'
+  ...
+# Subtest: without the `value` wrapper, a record with a privileged field is refused; with it, nothing is lost
+ok 26 - without the `value` wrapper, a record with a privileged field is refused; with it, nothing is lost
+  ---
+  duration_ms: 35.004792
+  type: 'test'
+  ...
+# Subtest: records stay inside the rules limits: an item with many fields still fits
+ok 27 - records stay inside the rules limits: an item with many fields still fits
+  ---
+  duration_ms: 16.15975
+  type: 'test'
+  ...
+# Subtest: eight concurrent retries create one durable report; independent instances recover and reject changed payload
+ok 28 - eight concurrent retries create one durable report; independent instances recover and reject changed payload
+  ---
+  duration_ms: 7892.913417
+  type: 'test'
+  ...
+# Subtest: spam bursts consume only their actor quota; another actor and next window still submit
+ok 29 - spam bursts consume only their actor quota; another actor and next window still submit
+  ---
+  duration_ms: 223.999875
+  type: 'test'
+  ...
+# Subtest: bounded oldest-first pagination has no gaps and SLA flags survive independent instances
+ok 30 - bounded oldest-first pagination has no gaps and SLA flags survive independent instances
+  ---
+  duration_ms: 58.987292
+  type: 'test'
+  ...
+# Subtest: review compare-and-swap records one auditable winner; private data never enters public aggregates
+ok 31 - review compare-and-swap records one auditable winner; private data never enters public aggregates
+  ---
+  duration_ms: 3021.84075
+  type: 'test'
+  ...
+# Subtest: attachment quarantine fails closed, resumes after upload outage, and binds scanner verdicts to immutable bytes
+ok 32 - attachment quarantine fails closed, resumes after upload outage, and binds scanner verdicts to immutable bytes
+  ---
+  duration_ms: 108.618125
+  type: 'test'
+  ...
+# [2026-11-25T17:45:27.090Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324ca error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# false for 'create' @ L270, false for 'create' @ L599, false for 'update' @ L270, false for 'update' @ L599
+# [2026-11-25T17:45:27.104Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324cc error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# false for 'create' @ L270, false for 'create' @ L599, false for 'update' @ L270, false for 'update' @ L599
+# [2026-11-25T17:45:27.111Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324cd error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# false for 'create' @ L273, false for 'create' @ L599, false for 'update' @ L273, false for 'update' @ L599
+# [2026-11-25T17:45:27.223Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324ce error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# false for 'create' @ L270, false for 'create' @ L599, false for 'update' @ L270, false for 'update' @ L599
+# [2026-11-25T17:45:27.233Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d0 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# false for 'create' @ L270, false for 'create' @ L599, false for 'update' @ L270, false for 'update' @ L599
+# [2026-11-25T17:45:27.240Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d1 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# false for 'create' @ L273, false for 'create' @ L599, false for 'update' @ L273, false for 'update' @ L599
+# [2026-11-25T17:45:27.279Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d2 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# false for 'create' @ L270, false for 'create' @ L599, false for 'update' @ L270, false for 'update' @ L599
+# [2026-11-25T17:45:27.290Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d4 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# false for 'create' @ L270, false for 'create' @ L599, false for 'update' @ L270, false for 'update' @ L599
+# [2026-11-25T17:45:27.297Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x129324d5 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# false for 'create' @ L273, false for 'create' @ L599, false for 'update' @ L273, false for 'update' @ L599
+# Subtest: citizens, guests and UI admins cannot bypass the API, forge audit/aggregate rows or read quarantine objects
+ok 33 - citizens, guests and UI admins cannot bypass the API, forge audit/aggregate rows or read quarantine objects
+  ---
+  duration_ms: 280.141833
+  type: 'test'
+  ...
+# {"workload":"40 synthetic independent actors / emulator","elapsedMs":64,"accepted":40}
+# Subtest: synthetic 40-actor concurrent load is bounded and does not share a global quota document
+ok 34 - synthetic 40-actor concurrent load is bounded and does not share a global quota document
+  ---
+  duration_ms: 64.651958
+  type: 'test'
+  ...
+# Subtest: users/{uid}: only the owner can read, create, edit or delete the profile
+ok 35 - users/{uid}: only the owner can read, create, edit or delete the profile
+  ---
+  duration_ms: 313.537083
+  type: 'test'
+  ...
+# Subtest: users/{uid}: anonymous sessions cannot keep a profile
+ok 36 - users/{uid}: anonymous sessions cannot keep a profile
+  ---
+  duration_ms: 14.491041
+  type: 'test'
+  ...
+# Subtest: users/{uid}: cannot grant yourself privileged fields or send unexpected, oversized or forged data
+ok 37 - users/{uid}: cannot grant yourself privileged fields or send unexpected, oversized or forged data
+  ---
+  duration_ms: 51.026375
+  type: 'test'
+  ...
+# Subtest: users/{uid}: createdAt cannot be rewritten later
+ok 38 - users/{uid}: createdAt cannot be rewritten later
+  ---
+  duration_ms: 37.516625
+  type: 'test'
+  ...
+# Subtest: users/{uid}/vaultDocs: owner-only create, read, update, delete
+ok 39 - users/{uid}/vaultDocs: owner-only create, read, update, delete
+  ---
+  duration_ms: 115.92625
+  type: 'test'
+  ...
+# Subtest: users/{uid}/saved: owner-only create, read, update, delete
+ok 40 - users/{uid}/saved: owner-only create, read, update, delete
+  ---
+  duration_ms: 106.674583
+  type: 'test'
+  ...
+# Subtest: users/{uid}/applications: owner-only create, read, update, delete
+ok 41 - users/{uid}/applications: owner-only create, read, update, delete
+  ---
+  duration_ms: 110.978583
+  type: 'test'
+  ...
+# Subtest: users/{uid}/officeTokens: owner-only create, read, update, delete
+ok 42 - users/{uid}/officeTokens: owner-only create, read, update, delete
+  ---
+  duration_ms: 109.782375
+  type: 'test'
+  ...
+# Subtest: users/{uid}/reminders: owner-only create, read, update, delete
+ok 43 - users/{uid}/reminders: owner-only create, read, update, delete
+  ---
+  duration_ms: 112.485375
+  type: 'test'
+  ...
+# Subtest: users/{uid}/settings: owner-only create, read, update, delete
+ok 44 - users/{uid}/settings: owner-only create, read, update, delete
+  ---
+  duration_ms: 109.202541
+  type: 'test'
+  ...
+# Subtest: users/{uid}/assessments: owner-only create, read, update, delete
+ok 45 - users/{uid}/assessments: owner-only create, read, update, delete
+  ---
+  duration_ms: 106.795083
+  type: 'test'
+  ...
+# Subtest: users/{uid}/grievanceTickets: owner-only create, read, update, delete
+ok 46 - users/{uid}/grievanceTickets: owner-only create, read, update, delete
+  ---
+  duration_ms: 102.638625
+  type: 'test'
+  ...
+# Subtest: users/{uid}/checklists: owner-only create, read, update, delete
+ok 47 - users/{uid}/checklists: owner-only create, read, update, delete
+  ---
+  duration_ms: 105.004791
+  type: 'test'
+  ...
+# Subtest: users/{uid}/drafts: owner-only create, read, update, delete
+ok 48 - users/{uid}/drafts: owner-only create, read, update, delete
+  ---
+  duration_ms: 103.987333
+  type: 'test'
+  ...
+# Subtest: users/{uid}/applicantProfiles: owner-only create, read, update, delete
+ok 49 - users/{uid}/applicantProfiles: owner-only create, read, update, delete
+  ---
+  duration_ms: 104.627958
+  type: 'test'
+  ...
+# Subtest: users/{uid}/scorecards: owner-only create, read, update, delete
+ok 50 - users/{uid}/scorecards: owner-only create, read, update, delete
+  ---
+  duration_ms: 112.555292
+  type: 'test'
+  ...
+# Subtest: users/{uid}/assistantChats: owner-only create, read, update, delete
+ok 51 - users/{uid}/assistantChats: owner-only create, read, update, delete
+  ---
+  duration_ms: 100.071209
+  type: 'test'
+  ...
+# Subtest: users/{uid}/{collection}: collections that are not in the list are refused
+ok 52 - users/{uid}/{collection}: collections that are not in the list are refused
+  ---
+  duration_ms: 18.535875
+  type: 'test'
+  ...
+# Subtest: privacy export payloads and audit metadata are server-only
+ok 53 - privacy export payloads and audit metadata are server-only
+  ---
+  duration_ms: 51.573
+  type: 'test'
+  ...
+# Subtest: users/{uid}/{collection}: listing is limited to your own records
+ok 54 - users/{uid}/{collection}: listing is limited to your own records
+  ---
+  duration_ms: 45.201334
+  type: 'test'
+  ...
+# Subtest: personal records: reject privileged, unexpected, forged and oversized fields
+ok 55 - personal records: reject privileged, unexpected, forged and oversized fields
+  ---
+  duration_ms: 132.9985
+  type: 'test'
+  ...
+# Subtest: personal records: createdAt cannot be changed after creation
+ok 56 - personal records: createdAt cannot be changed after creation
+  ---
+  duration_ms: 18.38325
+  type: 'test'
+  ...
+# Subtest: users/{uid}/privacyAudit: append-only
+ok 57 - users/{uid}/privacyAudit: append-only
+  ---
+  duration_ms: 50.3245
+  type: 'test'
+  ...
+# Subtest: services: anyone reads, only admins write
+ok 58 - services: anyone reads, only admins write
+  ---
+  duration_ms: 110.582333
+  type: 'test'
+  ...
+# Subtest: services: admin writes are validated
+ok 59 - services: admin writes are validated
+  ---
+  duration_ms: 46.622
+  type: 'test'
+  ...
+# Subtest: the role claim is the only way to be an admin
+ok 60 - the role claim is the only way to be an admin
+  ---
+  duration_ms: 51.302042
+  type: 'test'
+  ...
+# Subtest: a role stored in a Firestore document does not make anyone an admin
+ok 61 - a role stored in a Firestore document does not make anyone an admin
+  ---
+  duration_ms: 30.110333
+  type: 'test'
+  ...
+# Subtest: notices: only approved notices are public; admins manage all
+ok 62 - notices: only approved notices are public; admins manage all
+  ---
+  duration_ms: 112.556291
+  type: 'test'
+  ...
+# Subtest: barrierInsights: public to read, never writable from a client
+ok 63 - barrierInsights: public to read, never writable from a client
+  ---
+  duration_ms: 36.779667
+  type: 'test'
+  ...
+# Subtest: errorReports: any session can file one as itself, and read it back
+ok 64 - errorReports: any session can file one as itself, and read it back
+  ---
+  duration_ms: 54.475459
+  type: 'test'
+  ...
+# Subtest: errorReports: others cannot read; admins read and moderate; nobody else edits or deletes
+ok 65 - errorReports: others cannot read; admins read and moderate; nobody else edits or deletes
+  ---
+  duration_ms: 149.013959
+  type: 'test'
+  ...
+# Subtest: errorReports: cannot be filed as someone else or with a forged status, time or extra fields
+ok 66 - errorReports: cannot be filed as someone else or with a forged status, time or extra fields
+  ---
+  duration_ms: 42.670375
+  type: 'test'
+  ...
+# Subtest: serviceSubmissions: filed by any session, read by the filer and admins, reviewed only by admins
+ok 67 - serviceSubmissions: filed by any session, read by the filer and admins, reviewed only by admins
+  ---
+  duration_ms: 98.135417
+  type: 'test'
+  ...
+# Subtest: barrierReports: filed by any session; read by filer and admins; moderated by admins
+ok 68 - barrierReports: filed by any session; read by filer and admins; moderated by admins
+  ---
+  duration_ms: 83.547875
+  type: 'test'
+  ...
+# Subtest: bottleneckFeedback: only server API may access shared intake and audits
+ok 69 - bottleneckFeedback: only server API may access shared intake and audits
+  ---
+  duration_ms: 64.284208
+  type: 'test'
+  ...
+# Subtest: communityAudits: public to read, filed by accounts, resolved by admins, one vote per account
+ok 70 - communityAudits: public to read, filed by accounts, resolved by admins, one vote per account
+  ---
+  duration_ms: 165.6585
+  type: 'test'
+  ...
+# Subtest: roles: owner and admins can read; nobody can write from a client
+ok 71 - roles: owner and admins can read; nobody can write from a client
+  ---
+  duration_ms: 98.573792
+  type: 'test'
+  ...
+# Subtest: auditLogs: admins append entries as themselves; no edits, no deletes; nobody else reads
+ok 72 - auditLogs: admins append entries as themselves; no edits, no deletes; nobody else reads
+  ---
+  duration_ms: 115.23
+  type: 'test'
+  ...
+# Subtest: sourceConflicts and reviewOverrides: admin only
+ok 73 - sourceConflicts and reviewOverrides: admin only
+  ---
+  duration_ms: 129.213417
+  type: 'test'
+  ...
+# Subtest: collections that are not in the policy are closed to everyone
+ok 74 - collections that are not in the policy are closed to everyone
+  ---
+  duration_ms: 200.869792
+  type: 'test'
+  ...
+# Subtest: vault: the owner can upload, read and delete their own files
+ok 75 - vault: the owner can upload, read and delete their own files
+  ---
+  duration_ms: 96.840208
+  type: 'test'
+  ...
+# Subtest: vault: nobody else can read, write, list or delete, admins and anonymous sessions included
+ok 76 - vault: nobody else can read, write, list or delete, admins and anonymous sessions included
+  ---
+  duration_ms: 268.796917
+  type: 'test'
+  ...
+# Subtest: vault: anonymous sessions cannot store files, even under their own id
+ok 77 - vault: anonymous sessions cannot store files, even under their own id
+  ---
+  duration_ms: 18.215708
+  type: 'test'
+  ...
+# Subtest: vault: only PDF, JPEG and PNG are accepted
+ok 78 - vault: only PDF, JPEG and PNG are accepted
+  ---
+  duration_ms: 158.352417
+  type: 'test'
+  ...
+# Subtest: vault: files must be between 1 byte and 5 MB
+ok 79 - vault: files must be between 1 byte and 5 MB
+  ---
+  duration_ms: 125.351375
+  type: 'test'
+  ...
+# Subtest: vault: file names are limited in length
+ok 80 - vault: file names are limited in length
+  ---
+  duration_ms: 29.127875
+  type: 'test'
+  ...
+# Subtest: every other path is closed to everyone
+ok 81 - every other path is closed to everyone
+  ---
+  duration_ms: 642.565875
+  type: 'test'
+  ...
+# [2026-11-25T17:45:37.033Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x74d07b02 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# false for 'create' @ L594, false for 'create' @ L599, false for 'update' @ L594, false for 'update' @ L599
+# [2026-11-25T17:45:37.053Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x74d07b04 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# false for 'create' @ L594, false for 'create' @ L599, false for 'update' @ L594, false for 'update' @ L599
+# [2026-11-25T17:45:37.072Z]  @firebase/firestore: Firestore (10.14.1): GrpcConnection RPC 'Write' stream 0x74d07b06 error. Code: 7 Message: 7 PERMISSION_DENIED: 
+# false for 'create' @ L594, false for 'create' @ L599, false for 'update' @ L594, false for 'update' @ L599
+# Subtest: durable transactions survive independent store instances and concurrent retries
+ok 82 - durable transactions survive independent store instances and concurrent retries
+  ---
+  duration_ms: 3833.692459
+  type: 'test'
+  ...
+# Subtest: the token the handler issues carries exactly the claims the rules read
+ok 83 - the token the handler issues carries exactly the claims the rules read
+  ---
+  duration_ms: 164.395334
+  type: 'test'
+  ...
+# Subtest: an anonymous Firebase session has the provider the rules refuse for personal data
+ok 84 - an anonymous Firebase session has the provider the rules refuse for personal data
+  ---
+  duration_ms: 4.847125
+  type: 'test'
+  ...
+# Subtest: the handler refuses sessions Clerk does not know and issues nothing
+ok 85 - the handler refuses sessions Clerk does not know and issues nothing
+  ---
+  duration_ms: 0.127708
+  type: 'test'
+  ...
+# Subtest: firestore.rules, driven by real tokens: the admin claim writes service guides, citizens cannot
+ok 86 - firestore.rules, driven by real tokens: the admin claim writes service guides, citizens cannot
+  ---
+  duration_ms: 35.245166
+  type: 'test'
+  ...
+# Subtest: firestore.rules, driven by real tokens: personal data is the owner only, admins included
+ok 87 - firestore.rules, driven by real tokens: personal data is the owner only, admins included
+  ---
+  duration_ms: 68.430958
+  type: 'test'
+  ...
+# Subtest: firestore.rules, driven by real tokens: the role cannot be forged through a document
+ok 88 - firestore.rules, driven by real tokens: the role cannot be forged through a document
+  ---
+  duration_ms: 29.663041
+  type: 'test'
+  ...
+1..88
+# tests 88
+# suites 0
+# pass 88
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 27593.650875
+✔  Script exited successfully (code 0)
+i  emulators: Shutting down emulators.
+i  firestore: Stopping Firestore Emulator
+i  auth: Stopping Authentication Emulator
+i  storage: Stopping Storage Emulator
+i  hub: Stopping emulator hub
+i  logging: Stopping Logging Emulator

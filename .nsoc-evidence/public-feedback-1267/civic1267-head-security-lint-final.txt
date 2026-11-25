@@ -1,0 +1,89 @@
+
+> civic-help-setu@0.0.0 lint:security
+> eslint -c eslint.security.config.js --max-warnings 0 src
+
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/components/DeadlineCalendar.jsx
+  55:36  error  Parsing error: Unexpected token confirmationState
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/components/DocumentValidityCalendar.jsx
+  131:24  error  `eval` can be harmful  no-eval
+  132:19  error  `eval` can be harmful  no-eval
+  133:19  error  `eval` can be harmful  no-eval
+  134:23  error  `eval` can be harmful  no-eval
+  135:20  error  `eval` can be harmful  no-eval
+  136:21  error  `eval` can be harmful  no-eval
+  137:25  error  `eval` can be harmful  no-eval
+  138:24  error  `eval` can be harmful  no-eval
+  139:25  error  `eval` can be harmful  no-eval
+  140:27  error  `eval` can be harmful  no-eval
+  141:29  error  `eval` can be harmful  no-eval
+  142:26  error  `eval` can be harmful  no-eval
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/components/RuleEditor/RuleEditor.jsx
+  45:33  error  Parsing error: Unexpected token :
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/components/SlotAvailabilityHeatmap.jsx
+  910:9  error  Parsing error: Unterminated regular expression
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/components/admin/CatalogueCoverageRadarPanel.jsx
+  250:22  error  Parsing error: Unexpected token `>`. Did you mean `&gt;` or `{">"}`?
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/components/admin/CoverageMatrix.jsx
+  241:17  error  Parsing error: Unexpected character '·'
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/components/admin/RadarChart.jsx
+  181:69  error  Parsing error: Unexpected token `>`. Did you mean `&gt;` or `{">"}`?
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/components/flood/FloodEvacuationPlanner.jsx
+  262:11  error  Parsing error: Expected corresponding JSX closing tag for <div>
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/components/terminology-graph/TerminologyGraph.jsx
+  624:63  error  Parsing error: Unterminated string constant
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/components/volunteer/TaskDiscovery.jsx
+  193:29  error  Parsing error: Unexpected token relative
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/components/volunteer/VolunteerRegistrationForm.jsx
+  11:10  error  Parsing error: Identifier 'useTranslation' has already been declared
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/components/waterBillVisualizer/WaterBillVisualizerPage.jsx
+  666:13  error  Parsing error: Unexpected token {
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/data/eligibilityDsl.js
+  59:8  error  Parsing error: Unexpected token type
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/data/upOffices.js
+  69:13  error  Parsing error: Unexpected token office
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/data/upServices.js
+  248:2  error  Parsing error: Unexpected token *
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/pages/FloodHotspotPage.jsx
+  225:17  error  Parsing error: Unterminated regular expression
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/pages/ServiceAppointmentHeatmapPage.jsx
+  78:22  error  Parsing error: Unexpected token :
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/pages/TranslationWorkspace.jsx
+  548:80  error  Parsing error: Unterminated regular expression
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/pages/WaterBillVisualizerPage.jsx
+  883:1  error  Assigning innerHTML/outerHTML parses a string as HTML. Use textContent or React elements  no-restricted-syntax
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/services/civicDocumentValidityCalendarApi.js
+  25:8  error  Parsing error: Unexpected token type
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/services/eligibilityRuleEngine.js
+  32:8  error  Parsing error: Unexpected token enum
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/services/matchingService.js
+  383:10  error  Parsing error: Duplicate export 'explainMatch'
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/services/oauthRedirectService.js
+  35:3  error  Script URL is a form of eval  no-script-url
+
+/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/civic1267/src/tasks/index.js
+  75:3  error  Parsing error: Duplicate export 'handleOcrProcessingTask'
+
+✖ 35 problems (35 errors, 0 warnings)

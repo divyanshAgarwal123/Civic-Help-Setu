@@ -85,8 +85,8 @@
   "artifacts": [
     {
       "path": "civic-focused.txt",
-      "sha256": "3951dfdf9e8143e27425a14c1fced94868f5ef2184a223fda267ba7572bad646",
-      "bytes": 457
+      "sha256": "f732389bb3935f86f731060dc4fb02354238dd7af7c6aab7336b65bee42262a8",
+      "bytes": 456
     },
     {
       "path": "civic-scoped-lint.txt",
@@ -125,13 +125,13 @@
     },
     {
       "path": "civic-head-lint-security.txt",
-      "sha256": "850a63979f309da78b32a5024c1bdfa8961f73c8cd9051e0929be2db77595690",
-      "bytes": 4735
+      "sha256": "44bad18472815e8a8b6dabc1c65c0d9e43eb58c72127a18f9ecfc124ed9aa7ad",
+      "bytes": 4734
     },
     {
       "path": "civic-parent-lint-security.txt",
-      "sha256": "43987c37678e533adc698f9df82a8bc07c378acb17e400783074f0dd5c4ea2b2",
-      "bytes": 4903
+      "sha256": "1c84ecd5860a81b4a3c03ccaebd5387896849732578940f95b2bdf25ca0d0e8b",
+      "bytes": 4902
     },
     {
       "path": "civic-contracts-final.txt",

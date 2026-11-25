@@ -10,4 +10,3 @@
       Tests  49 passed (49)
    Start at  14:10:47
    Duration  2.26s (tests 94%, transform 4%, import 2%)
-
